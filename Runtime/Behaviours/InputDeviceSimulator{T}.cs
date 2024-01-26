@@ -59,6 +59,8 @@ namespace Overcharm.InputSystemExtensions
         // # ------- Implementations -------- # //
         // # ================================ # //
 
+        public override Type TargetDeviceType => typeof(T);
+
         public override InputDevice Device => _deviceTyped;
 
         // # ================================ # //
