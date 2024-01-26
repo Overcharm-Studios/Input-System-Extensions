@@ -14,9 +14,9 @@ namespace Overcharm.InputSystemExtensions.Editor
         public override void OnInspectorGUI()
         {
             string message = "";
-            message += $"An {nameof(InputDeviceSimulator)} generates a simulated {nameof(InputDevice)} of the type '{Self.TargetDeviceType}'. ";
+            message += $"An {nameof(InputDeviceSimulator)} generates a simulated {nameof(InputDevice)} of the type '{Self.TargetDeviceType?.Name}'. ";
             message += $"Inputs will be relayed to the simulated device according to the simulator's final implementation. ";
-            message += $"Any and all inputs written into the '{Self.TargetDeviceType}' will be detected by the applicable {nameof(InputAction)}s that read from the particular simulated device.";
+            message += $"Any and all inputs written into the '{Self.TargetDeviceType?.Name}' will be detected by the applicable {nameof(InputAction)}s that read from the particular simulated device.";
 
             EditorGUILayout.HelpBox(message, MessageType.Info);
 
