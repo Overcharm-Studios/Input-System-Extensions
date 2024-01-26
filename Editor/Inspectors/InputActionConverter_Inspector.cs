@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.InputSystem;
 
+/*
 namespace Overcharm.InputSystemExtensions.Editor
 {
     [CustomEditor(typeof(InputActionConverter), true)]
@@ -23,3 +24,4 @@ namespace Overcharm.InputSystemExtensions.Editor
         }
     }
 }
+*/
