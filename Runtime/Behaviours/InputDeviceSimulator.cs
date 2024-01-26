@@ -42,14 +42,14 @@ namespace Overcharm.InputSystemExtensions
 
         protected void OnEnable()
         {
-            InputSystem.onAfterUpdate += OnInputSystemUpdate;
+            InputSystem.onBeforeUpdate += OnInputSystemUpdate;
 
             _actions.Enable();
         }
 
         protected void OnDisable()
         {
-            InputSystem.onAfterUpdate -= OnInputSystemUpdate;
+            InputSystem.onBeforeUpdate -= OnInputSystemUpdate;
 
             _actions.Disable();
         }
