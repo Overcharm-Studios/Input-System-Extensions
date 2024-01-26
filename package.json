@@ -8,7 +8,7 @@
     "unity": "2021.2",
 
     "repository": {
-        "url": "https://github.com/Overcharm-Studios/Overcharm-Interactables.git",
+        "url": "https://github.com/Overcharm-Studios/Input-System-Extensions.git",
         "type": "git",
         "revision": "041def76515febb36a83d1f928cfb7aefb85176c"
     },
