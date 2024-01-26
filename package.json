@@ -1,0 +1,27 @@
+{
+    "name": "com.overcharm.input-system-extensions",
+
+    "displayName": "Input System Extensions",
+
+    "version": "1.0.1",
+
+    "unity": "2021.2",
+
+    "repository": {
+        "url": "https://github.com/Overcharm-Studios/Overcharm-Interactables.git",
+        "type": "git",
+        "revision": "041def76515febb36a83d1f928cfb7aefb85176c"
+    },
+
+    "description": "A set of extensions that compliment Unity's New Input System.",
+
+    "keywords": [
+        "overcharm",
+        "input"
+    ],
+
+    "author": {
+        "name": "Overcharm Studios",
+        "email": "overcharmstudios@gmail.com"
+    }
+}
